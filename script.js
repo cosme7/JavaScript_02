@@ -42,7 +42,7 @@ else {
 //5 - Criar uma condição que exiba uma mensagem no console se seu sobrenome tenha mais de 6 letras OU seu nome começar com a letra E
 
 let sobreNome = 'Leite';
-if (sobreNome.length >= 6 || sobreNome.substring(0,1) === 'E'){
+if (sobreNome.length >= 6 || nome.substring(0,1) === 'E'){
     console.log("TÁ SUAVE!!!")
 } 
 else {
